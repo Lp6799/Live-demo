@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Drop down button</title>
+</head>
+<style>
+.btl{
+  width:100px;
+  height:50px;
+  background:pink;
+  border:0;
+  font-weight:bold;
+  font-size:40px;
+  cursor:pointer;
+}
+.drop{
+position: positive;
+display: block;
+}
+.menu{
+  display:none;
+  background: black;
+  
+}
+a{
+  display:block;
+  text-decoration:0;
+  color:#fff;
+  margin:5px;
+  height:50px;
+  font-size:20px;
+  font-weight:bold;
+}
+.drop:hover .menu{
+  display: block;
+  
+}
+.me{
+content:'me';
+}
+</style>
+<body>
+<div class="drop">
+<button class="btl">....</button>
+<div class="menu">
+<a href="#">HOME</a>
+<a href="#">Dashboard</a>
+<a href="#">about us</a>
+<a href="#">customer service</a>
+</div>
+</div>
+    <p class="me"></p>
+</body>
+</html>
